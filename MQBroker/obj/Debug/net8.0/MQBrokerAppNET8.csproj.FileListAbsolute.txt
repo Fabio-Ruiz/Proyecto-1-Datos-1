@@ -1,0 +1,43 @@
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.exe
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.deps.json
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.runtimeconfig.json
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfo.cs
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\refint\MQBrokerAppNET8.dll
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.genruntimeconfig.cache
+C:\Users\Home\Downloads\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\ref\MQBrokerAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.exe
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.deps.json
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.runtimeconfig.json
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\bin\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfo.cs
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\refint\MQBrokerAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\MQBrokerAppNET8.genruntimeconfig.cache
+C:\Users\Home\Desktop\Proyecto 1\MQBrokerAppNET8\MQBrokerAppNET8\obj\Debug\net8.0\ref\MQBrokerAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBrokerAppNET8.exe
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBrokerAppNET8.deps.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBrokerAppNET8.runtimeconfig.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.AssemblyInfo.cs
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.sourcelink.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\refint\MQBrokerAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBrokerAppNET8.genruntimeconfig.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\ref\MQBrokerAppNET8.dll

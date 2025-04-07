@@ -1,0 +1,15 @@
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBroker.exe
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBroker.deps.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBroker.runtimeconfig.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBroker.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\bin\Debug\net8.0\MQBroker.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.AssemblyInfo.cs
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.sourcelink.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\refint\MQBroker.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\MQBroker.genruntimeconfig.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQBroker\obj\Debug\net8.0\ref\MQBroker.dll

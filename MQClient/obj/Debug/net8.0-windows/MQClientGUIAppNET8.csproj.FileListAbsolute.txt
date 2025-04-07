@@ -1,0 +1,43 @@
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.exe
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.deps.json
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.runtimeconfig.json
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfo.cs
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\refint\MQClientGUIAppNET8.dll
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.genruntimeconfig.cache
+C:\Users\Home\Downloads\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\ref\MQClientGUIAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.exe
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.deps.json
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.runtimeconfig.json
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\bin\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfo.cs
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\refint\MQClientGUIAppNET8.dll
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\MQClientGUIAppNET8.genruntimeconfig.cache
+C:\Users\Home\Desktop\Proyecto 1\MQClientGUIAppNET8\MQClientGUIAppNET8\obj\Debug\net8.0-windows\ref\MQClientGUIAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClientGUIAppNET8.exe
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClientGUIAppNET8.deps.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClientGUIAppNET8.runtimeconfig.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.AssemblyInfo.cs
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.sourcelink.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\refint\MQClientGUIAppNET8.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClientGUIAppNET8.genruntimeconfig.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\ref\MQClientGUIAppNET8.dll
