@@ -218,7 +218,7 @@ namespace MQBrokerCustom
                 return "ERROR|INVALID_CONNECT";
 
             //Console.WriteLine($"[CONNECT-REQ] Cliente {appId} solicitó conexión.");
-            Log($"[CONNECT-REQ] Cliente {appId} solicitó conexión.");
+            Log($"[CONNECT-REQ] Cliente {appId} se conectó.");
 
             return "CONNECTED";
         }
