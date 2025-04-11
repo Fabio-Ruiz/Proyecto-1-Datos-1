@@ -1,3 +1,4 @@
+// Espacios de nombres y dependencias
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -6,7 +7,7 @@ using System.Threading;
 
 namespace MQBrokerCustom
 {
-    // Nodo para lista doblemente enlazada tipo diccionario
+    // Nodo para lista doblemente enlazada circular que es la base del diccionario
     public class DiccionarioNodo<K, V>
     {
         public K Clave;
@@ -27,6 +28,7 @@ namespace MQBrokerCustom
             tamaño = 0;
         }
 
+        // Añade clave-valor al final, solo si no existe.
         public void Agregar(K clave, V valor)
         {
             if (Contiene(clave)) return;
@@ -50,6 +52,7 @@ namespace MQBrokerCustom
             tamaño++;
         }
 
+        // Busca si una clave está presente.
         public bool Contiene(K clave)
         {
             if (cabeza == null) return false;
@@ -64,6 +67,7 @@ namespace MQBrokerCustom
             return false;
         }
 
+        // Devuelve el valor asociado a una clave(lanzando error si no existe).
         public V Obtener(K clave)
         {
             var actual = cabeza;
@@ -76,6 +80,7 @@ namespace MQBrokerCustom
             throw new Exception("Clave no encontrada");
         }
 
+        // Elimina un nodo con clave específica.
         public void Eliminar(K clave)
         {
             if (cabeza == null) return;
@@ -102,6 +107,7 @@ namespace MQBrokerCustom
             } while (actual != cabeza);
         }
 
+        // Devuelve todas las entradas como array de tuplas.
         public (K clave, V valor)[] Elementos()
         {
             var elementos = new (K, V)[tamaño];
@@ -121,7 +127,8 @@ namespace MQBrokerCustom
         }
     }
 
-    // Cola basada en LinkedListQueue
+    // Cola simple tipo FIFO echha con nodos basada en LinkedListQueue
+    // Esto sirve para manejar los mensajes por suscriptor en orden de llegada
     public class LinkedListQueue
     {
         private class Node
@@ -134,6 +141,7 @@ namespace MQBrokerCustom
         private Node front;
         private Node rear;
 
+        // Agrega un nuevo elemento al final.
         public void Enqueue(string data)
         {
             var newNode = new Node(data);
@@ -148,6 +156,7 @@ namespace MQBrokerCustom
             }
         }
 
+        // Retira y devuelve el primer elemento.
         public string Dequeue()
         {
             if (front == null) return null;
@@ -157,19 +166,28 @@ namespace MQBrokerCustom
             return data;
         }
 
+        // Revisa si la cola está vacía.
         public bool IsEmpty() => front == null;
     }
 
+    // El servidor de mensajes
     public class MQBroker
     {
-        private readonly TcpListener listener;
+        // Este es el núcleo del servidor
+        private readonly TcpListener listener; // Escucha conexiones entrantes
+
+        // Cada topic (string) tiene un diccionario de suscriptores (Guid)
+        // Cada suscriptor tiene su propia cola de mensajes (LinkedListQueue)
         private readonly DiccionarioPersonalizado<string, DiccionarioPersonalizado<Guid, LinkedListQueue>> topicQueues = new();
 
+        // El constructor del broker
         public MQBroker(string ip, int port)
         {
             listener = new TcpListener(IPAddress.Parse(ip), port);
         }
 
+
+        // Inicia el servidor
         public void Start()
         {
             listener.Start();
@@ -177,13 +195,16 @@ namespace MQBrokerCustom
 
             while (true)
             {
-                var client = listener.AcceptTcpClient();
-                ThreadPool.QueueUserWorkItem(HandleClient, client);
+                var client = listener.AcceptTcpClient(); // Acepta conexiones entrantes
+                ThreadPool.QueueUserWorkItem(HandleClient, client); // Permite atender varios clientes en simultaneo
             }
         }
 
+        //  Maneja las solicitudes del cliente
         private void HandleClient(object obj)
         {
+            // Formato:    COMANDO|arg1|arg2
+            // Ejemplo: "SUBSCRIBE|{guid}|topic1"
             var client = (TcpClient)obj;
             using var stream = client.GetStream();
             byte[] buffer = new byte[2048];
@@ -191,6 +212,7 @@ namespace MQBrokerCustom
             string request = Encoding.UTF8.GetString(buffer, 0, bytesRead);
             string[] parts = request.Split('|');
 
+            // Esto evalua que se va a ejecutar según el comando recibido
             string response = parts[0] switch
             {
                 "CONNECT" => HandleConnect(parts),
@@ -207,34 +229,39 @@ namespace MQBrokerCustom
             client.Close();
         }
 
+        // Función auxiliar para imprimir con timestamp (permite ver todas las acciones reflejadas en la consola del broker)
         private void Log(string mensaje)
         {
             Console.WriteLine($"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {mensaje}");
         }
 
+        // Verifica si el Guid es válido, registra log-in, y confirma conexión
         private string HandleConnect(string[] parts)
         {
             if (parts.Length != 2 || !Guid.TryParse(parts[1], out var appId))
                 return "ERROR|INVALID_CONNECT";
 
-            //Console.WriteLine($"[CONNECT-REQ] Cliente {appId} solicitó conexión.");
+            // Imprime la acción en consola
             Log($"[CONNECT-REQ] Cliente {appId} se conectó.");
 
             return "CONNECTED";
         }
 
+        // Verifica si el Guid es válido, registra log-out, y confirma desconexión
         private string HandleDisconnect(string[] parts)
         {
             if (parts.Length != 2 || !Guid.TryParse(parts[1], out var appId))
                 return "ERROR|INVALID_DISCONNECT";
 
-            //Console.WriteLine($"[DISCONNECT] Cliente {appId} se desconectó a las {DateTime.Now:T}");
+            // Imprime la acción en consola
             Log($"[DISCONNECT] Cliente {appId} se desconectó.");
 
             return "DISCONNECTED";
         }
 
-
+        // Verifica si existe el topic.
+        // Si no, lo crea.
+        //Añade al cliente(por su Guid) una cola vacía asociada al topic.
         private string HandleSubscribe(string[] parts)
         {
             if (parts.Length != 3 || !Guid.TryParse(parts[1], out var appId)) return "ERROR|INVALID_SUBSCRIBE";
@@ -248,19 +275,22 @@ namespace MQBrokerCustom
             if (!subs.Contiene(appId))
             {
                 subs.Agregar(appId, new LinkedListQueue());
-                //Console.WriteLine($"[SUBSCRIBE] Cliente {appId} se suscribió al topic '{topic}'");
+                
+                // Imprime la acción en consola
                 Log($"[SUBSCRIBE] Cliente {appId} se suscribió al topic '{topic}'");
 
             }
             else
             {
-                Console.WriteLine($"[SUBSCRIBE] Cliente {appId} ya estaba suscrito al topic '{topic}'");
+                // Imprime la acción en consola
+                Log($"[SUBSCRIBE] Cliente {appId} ya estaba suscrito al topic '{topic}'");
                 return "ALREADY_SUBSCRIBED";
             }
 
             return "SUBSCRIBED";
         }
 
+        // Elimina al cliente del diccionario del topic si existe
         private string HandleUnsubscribe(string[] parts)
         {
             if (parts.Length != 3 || !Guid.TryParse(parts[1], out var appId)) return "ERROR|INVALID_UNSUBSCRIBE";
@@ -272,12 +302,14 @@ namespace MQBrokerCustom
             if (!subs.Contiene(appId)) return "ERROR|NOT_SUBSCRIBED";
 
             subs.Eliminar(appId);
-            //Console.WriteLine($"[UNSUBSCRIBE] Cliente {appId} se desuscribió del topic '{topic}'");
+            
+            // Imprime la acción en consola
             Log($"[UNSUBSCRIBE] Cliente {appId} se desuscribió del topic '{topic}'");
 
             return "UNSUBSCRIBED";
         }
 
+        // Inserta el mensaje en la cola de todos los suscriptores del topic
         private string HandlePublish(string[] parts)
         {
             if (parts.Length != 4 || !Guid.TryParse(parts[1], out var appId)) return "ERROR|INVALID_PUBLISH";
@@ -291,13 +323,14 @@ namespace MQBrokerCustom
             foreach (var (_, cola) in subs.Elementos())
                 cola.Enqueue(message);
 
-            //Console.WriteLine($"[PUBLISH] Cliente {appId} publicó mensaje en topic '{topic}': {message}");
+            // Imprime la acción en consola
             Log($"[PUBLISH] Cliente {appId} publicó mensaje en topic '{topic}': {message}");
 
 
             return "PUBLISHED";
         }
 
+        // Extrae el siguiente mensaje de la cola del suscriptor
         private string HandleReceive(string[] parts)
         {
             if (parts.Length != 3 || !Guid.TryParse(parts[1], out var appId)) return "ERROR|INVALID_RECEIVE";
@@ -312,7 +345,8 @@ namespace MQBrokerCustom
             if (cola.IsEmpty()) return "ERROR|NO_MESSAGES";
 
             var mensaje = cola.Dequeue();
-            //Console.WriteLine($"[RECEIVE] Cliente {appId} recibió mensaje del topic '{topic}': {mensaje}");
+            
+            // Imprime la acción en consola
             Log($"[RECEIVE] Cliente {appId} recibió mensaje del topic '{topic}': {mensaje}");
 
 
@@ -320,6 +354,7 @@ namespace MQBrokerCustom
         }
     }
 
+    // Arranca el servidor en el puerto 5000 escuchando en localhost
     public class Program
     {
         public static void Main()
