@@ -1,0 +1,15 @@
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClient.exe
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClient.deps.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClient.runtimeconfig.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClient.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\bin\Debug\net8.0-windows\MQClient.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.AssemblyInfoInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.AssemblyInfo.cs
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.sourcelink.json
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\refint\MQClient.dll
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.pdb
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\MQClient.genruntimeconfig.cache
+C:\Users\Home\Documents\GitHub\Proyecto-1-Datos-1\MQClient\obj\Debug\net8.0-windows\ref\MQClient.dll

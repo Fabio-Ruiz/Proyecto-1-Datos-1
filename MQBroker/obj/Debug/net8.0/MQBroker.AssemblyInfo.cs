@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MQBroker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b63670de42d1738bf196e5da77e7cd6f40c1f847")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d211b36e8bb5b78a5ac8d596faf962633b68438")]
 [assembly: System.Reflection.AssemblyProductAttribute("MQBroker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MQBroker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MQBroker"
+    "\\MQBroker",
+    "\\MQClient"
   ],
-  "SelectedNode": "\\MQBroker\\MQBroker.cs",
+  "SelectedNode": "\\MQClient\\MainForm.cs",
   "PreviewInSolutionExplorer": false
 }

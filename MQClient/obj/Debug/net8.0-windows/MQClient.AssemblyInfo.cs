@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MQClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c37b4b45db9e7a5833b3ea8f665046cb6e0e03f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d211b36e8bb5b78a5ac8d596faf962633b68438")]
 [assembly: System.Reflection.AssemblyProductAttribute("MQClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MQClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
